@@ -9,7 +9,7 @@
 <meta property="og:description" content="Ֆոտո ալբոմ">
 <meta name="theme-color" content="#E9EEE3">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
-<link rel="preload" as="image" href="pages/p01.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="p01.jpg" fetchpriority="high">
 <style>
   :root{
     --moss:#3E5A2E;
@@ -21,7 +21,7 @@
   *{box-sizing:border-box}
   html,body{height:100%;margin:0}
   body{
-    background:var(--mist) url("assets/bg.jpg") center/cover no-repeat fixed;
+    background:var(--mist) url("bg.jpg") center/cover no-repeat fixed;
     color:var(--moss);
     font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
     overflow:hidden;
@@ -179,7 +179,7 @@
 
   function src(i, small){
     var n = (i + 1 < 10 ? '0' : '') + (i + 1);
-    return 'pages/p' + n + (small ? '-s' : '') + '.jpg';
+    return 'p' + n + (small ? '-s' : '') + '.jpg';
   }
 
   // biggest size a page can ever be shown at (fullscreen), so the browser picks a sharp enough file
